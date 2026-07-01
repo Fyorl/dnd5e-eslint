@@ -25,4 +25,4 @@
 ## 1.0.0
 
 ### Improvements
- - Added custom ESLint plugins for Foundry VTT-specific code style conventions.
+ - Added custom ESLint plugins for dnd5e project code style conventions.

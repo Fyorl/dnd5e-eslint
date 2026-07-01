@@ -1,9 +1,15 @@
 {
   "name": "@bytestruct/dnd5e-eslint",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
-  "repository": "github:Fyorl/dnd5e-eslint",
-  "files": ["src", "index.mjs", "LICENSE"],
+  "repository": {
+    "url": "git+https://github.com/Fyorl/dnd5e-eslint.git"
+  },
+  "files": [
+    "src",
+    "index.mjs",
+    "LICENSE"
+  ],
   "exports": {
     ".": "./index.mjs"
   },
@@ -26,5 +32,8 @@
     "eslint-plugin-jsdoc": "^62.8.0",
     "eslint-plugin-perfectionist": "^5.7.0",
     "globals": "^17.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
